@@ -23,7 +23,7 @@ function Header() {
                     <div className="hidden sm:flex gap-2">
                         {navItems.map((item) => (
                             <Link key={item.href} href={item.href}>
-                                <p className="text-[#919090] px-4 py-2 cursor-pointer font-poppins font-semibold transition-colors duration-300 ease-out hover:text-[#FE31F8]">
+                                <p className="text-gray px-4 py-2 cursor-pointer font-poppins font-semibold transition-colors duration-300 ease-out hover:text-transition">
                                     {item.label}
                                 </p>
                             </Link>
@@ -35,10 +35,10 @@ function Header() {
                 Menu
             </button>
             {isMobileMenuOpen && (
-                <nav className="absolute top-16 left-0 w-full bg-[#FCF4F8] p-4 flex flex-col gap-2 sm:hidden">
+                <nav className="absolute top-16 left-0 w-full bg-lightPink p-4 flex flex-col gap-2 sm:hidden">
                     {navItems.map((item) => (
                         <Link key={item.href} href={item.href}>
-                            <p className="text-[#919090] px-4 py-2 cursor-pointer font-poppins font-semibold transition-colors duration-300 ease-out hover:text-[#FE31F8]">
+                            <p className="text-gray px-4 py-2 cursor-pointer font-poppins font-semibold transition-colors duration-300 ease-out hover:text-transition">
                                 {item.label}
                             </p>
                         </Link>

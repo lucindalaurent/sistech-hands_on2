@@ -14,7 +14,7 @@ function CardList({ cards }: CardListProps) {
           thumbnail={card.thumbnail}
           title={card.title}
           description={
-            <ul className="list-disc pl-5">
+            <ul className="list-disc px-5">
               {Array.isArray(card.description) && card.description.map((desc: string, descIndex) => (
                 <li key={descIndex}>{desc}</li>
               ))}

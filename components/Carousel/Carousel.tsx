@@ -28,10 +28,10 @@ function Carousel() {
     }, [slideIndex]);
 
     return (
-        <section className="carousel w-full overflow-hidden">
+        <section className="carousel w-full overflow-hidden mb-4">
             <div className="carousel-container flex items-center justify-center relative w-full max-w-7xl mx-auto">
                 <button 
-                    className="carousel-btn prev bg-[#f7d2fa] text-darkmagenta border-none cursor-pointer py-2 px-3 sm:py-2 sm:px-5 mx-2 hover:bg-gray"
+                    className="carousel-btn prev bg-varPurple text-darkmagenta border-none cursor-pointer py-1 px-3 sm:py-2 sm:px-5 mx-2 hover:bg-gray"
                     onClick={() => plusDivs(-1)}
                 >
                     ❮
@@ -45,7 +45,7 @@ function Carousel() {
                     />
                 ))}
                 <button 
-                    className="carousel-btn next bg-[#f7d2fa] text-darkmagenta border-none cursor-pointer py-2 px-3 sm:py-2 sm:px-5 mx-2 hover:bg-gray"
+                    className="carousel-btn next bg-varPurple text-darkmagenta border-none cursor-pointer py-2 px-3 sm:py-2 sm:px-5 mx-2 hover:bg-gray"
                     onClick={() => plusDivs(1)}
                 >
                     ❯

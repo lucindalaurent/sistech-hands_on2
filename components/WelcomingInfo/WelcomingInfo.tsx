@@ -8,11 +8,11 @@ Be a part of our journey to help young women get professional guidance to forge 
 
 function WelcomingInfo() {
     return (
-        <section className="hero flex flex-col items-center gap-6 ml-4 px-0 sm:px-8 lg:px-64 py-12">
-          <h1 id="welcome" className="font-semibold text-3xl sm:text-4xl lg:text-5xl text-center py-5">
+        <section className="hero flex flex-col items-center gap-6 ml-4 px-0 sm:px-8 lg:px-64 pt-12 pb-1 mb-2">
+          <h1 id="welcome" className="font-semibold font-playwrite text-3xl sm:text-4xl lg:text-5xl text-center py-5">
             {title}
           </h1>
-          <div id="basic-info" className="text-center text-lg sm:text-xl font-medium mt-4">
+          <div id="basic-info" className="text-center text-lg sm:text-xl font-medium pt-8 mt-4">
             <p>
               {description}
             </p>

@@ -7,12 +7,6 @@ export default function Page() {
       <Head>
         <title>SISTECH - E-Learning Platform for Women</title>
       </Head>
-
-      {/* <Card
-        title="lorem ipsum"
-        description="10 min"
-        thumbnail="/images/DummyThumbnail.png"
-      /> */}
       <Header />
       <main >
         <WelcomingInfo />
@@ -21,10 +15,13 @@ export default function Page() {
         </section>
         <SectionMarkContainer />
         <CardListContainer />
-        <CallToAction/>
       </main>
-
-
+      <footer>
+        <CallToAction/>
+        <div className="lastSection p-6">
+            <p id="copyright" className="text-center">&copy; 2024 SISTECH. All rights reserved.</p>
+        </div>
+      </footer>
     </>
   );
 }
