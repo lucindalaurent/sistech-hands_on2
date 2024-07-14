@@ -1,0 +1,92 @@
+/* pages/globals.css atau src/globals.css, tergantung di mana Anda menaruhnya */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"); */
+@import url("https://fonts.cdnfonts.com/css/sora");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lucida+Sans:wght@400;500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/script-writing');
+
+main {
+  padding-top: 100px;
+}
+
+.font-sans {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  font-weight: 200; /* Equivalent to 'font-light' in Tailwind */
+}
+
+.page-center {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+}
+
+.shadow-neutral {
+  box-shadow: 0px 16px 40px 0px #7090b033;
+}
+
+.section-contact {
+  background-image: url("/images/BannerQuestion.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 184px 0;
+}
+/* src/components/Button.module.css */
+.button {
+  @apply px-6 py-3 rounded-full font-semibold;
+}
+
+.button-primary {
+  @apply bg-accent text-invert;
+}
+.button-primary:hover {
+  @apply bg-accentDark; /* Gantilah dengan warna gelap dari accent jika ada */
+}
+
+.button-secondary {
+  @apply bg-invert border border-accent text-accent;
+}
+
+.card {
+  @apply bg-invert text-purple rounded-lg p-6;
+}
+
+.general {
+  @apply ml-6;
+}
+
+.hero>#welcome {
+  color: rgb(167, 39, 120);
+  
+  font-family: 'Script Writing', sans-serif;
+}
+
+.hero>#basic-info {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color:rgb(104, 0, 149);
+}
