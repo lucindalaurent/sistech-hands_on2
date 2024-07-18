@@ -5,3 +5,7 @@ export * from "./SectionMark";
 export * from "./WelcomingInfo";
 export * from "./CallToAction";
 export * from "./LicenseMark";
+export * from "./CourseCard";
+export * from "./AllCoursesNav";
+export * from "./CourseSection";
+export * from "./WelcomingSection";
