@@ -5,18 +5,15 @@ type NavItem = {
     href: string;
     label: string;
 }
+interface HeaderProps {
+    navItems: NavItem[];
+}
 
-const navItems: NavItem[] = [
-    { href: "#welcome", label: "Home" },
-    { href: "#courseMark", label: "Courses" },
-    { href: "#callAction", label: "Join us" }
-];
-
-function Header() {
+function Header({navItems} : HeaderProps) {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <header className="fixed top-0 w-full flex justify-start gap-3 items-center py-4 px-4 sm:px-6 lg:px-8 z-50 border-b-2 border-subtle bg-lightPink">
+        <header className="fixed top-0 w-full flex justify-start gap-3 items-center py-3 px-4 sm:px-6 lg:px-8 z-50 border-b-2 border-subtle bg-lightPink">
             <nav className="w-full">
                 <div className="flex justify-start items-center gap-3">
                     <img src="/images/R_logo.png" alt="R logo" className="h-12 w-12" />
@@ -50,3 +47,4 @@ function Header() {
 }
 
 export { Header };
+export type { NavItem };
