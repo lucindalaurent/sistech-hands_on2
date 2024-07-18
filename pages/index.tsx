@@ -10,7 +10,7 @@ export default function Page() {
       <Header />
       <main >
         <WelcomingInfo />
-        <section className="flex flex-col items-center justify-center min-h-screen py-2">
+        <section className="flex flex-col items-center justify-center min-h-screen">
           <Carousel />
         </section>
         <SectionMarkContainer />

@@ -79,7 +79,10 @@ p {
 }
 
 .hero>#welcome {
-  color: rgb(167, 39, 120);                                                                                            
+  color: rgb(167, 39, 120);   
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-family: var(--font-playwrite);                                                                                         */
 }
 
 .hero>#basic-info {

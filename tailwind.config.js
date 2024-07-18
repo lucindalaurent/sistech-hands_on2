@@ -38,7 +38,7 @@ module.exports = {
       sans: ['Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif'],
       serif: ["Merriweather", "serif"],
       poppins: ["Poppins", "sans-serif"],
-      playwrite: ['Playfair Display', 'cursive'],
+      playwrite: ["var(--font-playwrite)"],
       // withLove : ['With Love', 'sans-serif'],
       // handwriting: ['Pacifico', 'cursive'],
     },
