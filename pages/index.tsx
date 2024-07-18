@@ -1,4 +1,4 @@
-import { CardListContainer, Header, Carousel, SectionMarkContainer, WelcomingInfo, CallToAction } from "../components";
+import { CardListContainer, Header, Carousel, SectionMarkContainer, WelcomingInfo, CallToAction, LicenseMark } from "../components";
 import Head from 'next/head';
 
 export default function Page() {
@@ -18,9 +18,7 @@ export default function Page() {
       </main>
       <footer>
         <CallToAction/>
-        <div className="lastSection p-6">
-            <p id="copyright" className="text-center">&copy; 2024 SISTECH. All rights reserved.</p>
-        </div>
+        <LicenseMark/>
       </footer>
     </>
   );
